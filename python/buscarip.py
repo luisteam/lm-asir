@@ -1,0 +1,6 @@
+f=open("/home/luis/Documentos/python/ip.txt","r") 
+cad=f.read()
+f.seek(cad.find("enx00e04c534458"))
+lineas=f.readlines()
+print(lineas[2].strip().split(" ")[1].split("/")[0])
+f.close()

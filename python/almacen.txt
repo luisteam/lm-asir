@@ -1,0 +1,2 @@
+escoba,5,12
+fregona,10,12
